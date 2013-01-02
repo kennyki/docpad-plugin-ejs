@@ -1,0 +1,35 @@
+{
+  "name": "docpad-plugin-ejs",
+  "version": "1.0.0",
+  "description": "Embedded javascript rendering for DocPad",
+  "homepage": "http://perpetual-motion.com/docpad/ejs",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "ejs",
+    "embeddedjavascript"
+  ],
+  "author": "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)",
+  "maintainers": [
+    "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)"
+  ],
+  "contributors": [
+    "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/perpetual-motion/docpad-plugin-ejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perpetual-motion/docpad-plugin-ejs.git"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "docpad": "6.x"
+  },
+  "main": "./lib/ejs.plugin.js",
+  "dependencies": {
+    "ejs": "~0.8.3",
+    "docpad-jsplugin": "git://github.com/perpetual-motion/docpad-jsplugin.git"
+  }
+}
